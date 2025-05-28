@@ -1,0 +1,81 @@
+   *{
+        padding: 0;
+        margin: 0;
+    }
+header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+     background-image: url(images/商標.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: left 0px;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 100px;
+}
+
+header a{
+    color:orange;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header li{
+    display: inline;
+    margin-right: 8vw;
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 100px;
+}
+.ojisan{
+    display: flex;
+}
+
+footer{
+    background-image: url(images/3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
+.b{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    line-height: 100px;
+}
+.c{
+    color: white;
+    position: absolute;
+   line-height: 170px;
+}
+.a{
+    background-image:url(images/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(252, 189, 71);
+}
+.d{
+    background: linear-gradient(to bottom, orange, red, purple, gray, black);
+}
+.e{
+    text-align: center;
+    max-width: 4000px;
+}
